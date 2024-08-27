@@ -1,6 +1,6 @@
 # React + Vite
 
-## Laravel Ecommerce Project
+## React Laravel Blog Website
 This project is a full-stack blog website built using React for the front end and Laravel for the back end. The purpose of this website is to provide a platform where users can easily create, edit, update, and manage blog posts. The front end is designed with React to ensure a dynamic, responsive user interface, while the back end is powered by Laravel, which serves as a RESTful API to handle all the server-side operations.
 
 The seamless integration between React and Laravel provides a smooth user experience and efficient data management. This website demonstrates how to leverage both technologies to build a modern, feature-rich blog application.
@@ -9,19 +9,19 @@ The seamless integration between React and Laravel provides a smooth user experi
 ## User Dashboard
 Explore and manage your orders and account details with a user-friendly dashboard.
 
-##Create Blog Posts: 
+## Create Blog Posts: 
 Users can write new blog posts, add titles, content, and images, and save them directly through the website interface.
 
-##Edit and Update Posts: 
+## Edit and Update Posts: 
 Users can modify existing blog posts, update their content, and save changes dynamically.
 
-##Delete Blog Posts: 
+## Delete Blog Posts: 
 Users have the ability to delete unwanted blog posts, ensuring they can manage their content effectively.
 
-##RESTful API with Laravel: 
+## RESTful API with Laravel: 
 The backend is developed using Laravel, providing a robust and secure API to handle all CRUD operations (Create, Read, Update, Delete) for blog posts.
 
-##Responsive User Interface: 
+## Responsive User Interface: 
 The front end, built with React, offers a modern and responsive design that adapts to various devices, ensuring an optimal user experience on both desktop and mobile platforms.
 
 ##State Management with React Hooks: 
