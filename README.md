@@ -28,4 +28,7 @@ The application uses React Hooks for state management, ensuring efficient handli
 ## Secure and Scalable: 
 The project follows best practices for security and scalability, making it suitable for future enhancements and deployment.
 
+## Home Page
+
+![screencapture-localhost-5173-2024-08-27-23_34_38](https://github.com/user-attachments/assets/624ee1e7-7f15-4707-8ca9-e384a82d5de7)
 
