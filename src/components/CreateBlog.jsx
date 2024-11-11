@@ -12,9 +12,20 @@ const CreateBlog = () => {
     function onChange(e) {
         setHtml(e.target.value);
     }
+   
+
 
     const handleFileChange = async (e) => {
         const file = e.target.files[0];
+    
+        // if (!file) return;
+    
+        // Check for file type and size
+        if (!file.type.startsWith('image/') || file.size > 5000000) {  // 5MB limit
+            alert('Invalid file. Please upload a valid image under 5MB.');
+            e.target.value = null;
+            return;
+        }
         const formData = new FormData();
         formData.append("image", file);
 
@@ -46,6 +57,7 @@ const CreateBlog = () => {
             description: html, 
             image_id: imageId // Adjusted to match backend variable
         };
+        
 
         try {
             const res = await fetch("http://localhost:8000/api/blogs", {
